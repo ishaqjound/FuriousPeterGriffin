@@ -145,8 +145,6 @@ Player.prototype.moveDown = function() {
   this.y += 7;
   //console.log('moveDown');
 };
-//doesn't work.
-
 var chickens = 0;
 
 Player.prototype.update = function() {
